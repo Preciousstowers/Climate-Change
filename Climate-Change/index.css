@@ -1,0 +1,121 @@
+<style>
+
+
+.nav {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* title background */
+#seal{
+  background-image: url(https://i.ibb.co/9g4qYR3/merlin-177515514-0330ca6b-a888-4185-be92-62912adefdea-super-Jumbo.jpg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height:100vh;
+  margin-bottom: -500px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+/* center title */
+#firsttitle{
+  font-size: 175px;
+  color: white;
+  transform: translate(-2%, -20%);
+}
+
+/* left jumbo */
+#left {
+  background-color: #DFF2D8;
+  background-size: cover;
+  position: relative; 
+  height: 400px;
+}
+
+/* middle jumbo */
+#middle {
+  background-color: #7EBDC3;
+  background-size: cover;
+  position: relative;
+  transform: translate(0, 50%);
+  height: 400px;
+}
+
+/* right jumbo */
+#right {
+  background-color: #CED097;
+  background-size: cover;
+  position: relative;
+  transform: translate(0, 100%);
+  height: 400px;
+  margin-bottom: auto;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Changes text size at bottom */
+.centered{
+  font-size: 50px;
+}
+/* Changes text hover cover to gold at the bottom */
+.centered:hover {
+ color:gold;
+}
+
+/* jumbo for page options */
+#block{
+  background-color: tan;
+  margin: 0 auto;
+}
+
+/* Ocean temp background jumbo */
+#OceanTemp{
+  background-image: url(https://i.ibb.co/RhrHK5t/iceberg.jpg);
+  height: 400px;
+  font-size: 50px;
+  font-color: white;
+  transform: translate(50%, 0%);
+}
+
+/* Mangrove forrest background jumbo */
+#Mangroveforest{
+  background-image: url(https://i.ibb.co/3BtWdB8/tigersinmangrove.jpg);
+  height: 400px;
+  font-size: 50px;
+  transform: translate(50%, 0%);
+}
+/* Mangrove forrest and Ocean heat titles white and selectecd hover color */
+#titlelinks {
+  color: white;
+}
+#titlelinks:hover{
+  color: gold;
+}
+h3{
+  color: black;
+}
+/* button for call to action */
+.btn {
+    width: 700px;
+    height: 75px;
+    font-size: 38px;
+    border-radius: 10px;
+    transform: translate(0%, -30%);
+}
+/* centered menu*/
+#pages{
+  transform: translate(72%, 0%);
+}

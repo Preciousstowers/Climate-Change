@@ -1,0 +1,95 @@
+
+/* top jumbo design */
+#first{
+  background-color: #9E6F24;
+}
+#onejumbo{
+  background-color: #FFD791;
+}
+#twojumbo{
+  background-color: #CFA862;
+  
+}
+#threejumbo {
+  position: relative;
+  background-size: cover;
+  background-color: #876F4C;
+}
+/* middle jumbo design*/
+#fourjumbo{
+  transform: translate(60%, 20%);
+  background-color: #E6D4B8;
+  border-radius: 500px;
+  width: 500px;
+  height: 500px;
+}
+#fivejumbo{
+  background-color: #B7904B;
+  border-radius: 250px;
+  width: 400px;
+  height: 400px;
+}
+
+#sixjumbo{
+  transform: translate(180%, -107%);
+background-color: #F3D6A5;
+  border-radius: 250px;
+  width: 400px;
+  height: 400px;
+}
+
+#sevenjumbo{
+  transform: translate(60%, -100%);
+  background-color: #DAD3CB;
+  border-radius: 500px;
+  width: 500px;
+  height: 500px;
+  margin-bottom: -35%;
+}
+#eightjumbo{
+  background-color: #FFD791;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* right tree image */
+#RightTree{
+  width: 900px;
+  height: 300px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.container-fluid{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Changes text size at bottom */
+.centered{
+  font-size: 50px;
+}
+/* Changes text hover cover to gold at the bottom */
+.centered:hover {
+ color:gold;
+}
+
+/* center menu options */
+#pages{
+  transform: translate(47%, 0%);
+}

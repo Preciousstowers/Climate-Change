@@ -1,0 +1,59 @@
+
+
+/* all jumbo's set to pink unless stated otherwise*/
+.jumbotron {
+  background-color: #B95F89;
+}
+#secondtopinfojumbo{
+  background-color: #C4E0F9;
+  transform: translate(0%, 23%);
+}
+#topinfojumbo{
+  background-color: #67AAF9;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.container-fluid{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* middle of page design */
+#midinfojumbo{
+  background-color: #9BBDF9;
+  transform: translate(68%, 10%);
+}
+#secondmidjumbo{
+  transform: translate(-170%, -30%);
+  background-color: #C4E0F9;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Changes text size at bottom */
+.centered{
+  font-size: 50px;
+}
+/* Changes text hover cover to gold at the bottom */
+.centered:hover {
+ color:gold;
+}
+/* center menu options */
+#pages{
+  transform: translate(47%, 0%);
+}
